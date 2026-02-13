@@ -1,0 +1,1 @@
+execute unless data storage aacoop: addon.list[{namespace:"aacsync"}] run data modify storage aacoop: addon.list append value {namespace:"aacsync"}

@@ -1,0 +1,104 @@
+{
+    "parent": "minecraft:nether/ride_strider",
+    "criteria": {
+    "minecraft:basalt_deltas": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:nether/explore_nether/basalt_deltas": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:crimson_forest": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:nether/explore_nether/crimson_forest": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:nether_wastes": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:nether/explore_nether/nether_wastes": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:soul_sand_valley": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:nether/explore_nether/soul_sand_valley": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:warped_forest": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:nether/explore_nether/warped_forest": true
+                    }
+                }
+            }
+        }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.nether.explore_nether.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherite_boots"
+    },
+    "title": {
+      "translate": "advancements.nether.explore_nether.title"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:nether_wastes"
+    ],
+    [
+      "minecraft:soul_sand_valley"
+    ],
+    [
+      "minecraft:crimson_forest"
+    ],
+    [
+      "minecraft:warped_forest"
+    ],
+    [
+      "minecraft:basalt_deltas"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": true
+}
