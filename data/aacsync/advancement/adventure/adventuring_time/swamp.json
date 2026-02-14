@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "aacsync:swamp": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biomes": "minecraft:swamp"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "aacsync:warm_ocean": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biomes": "minecraft:warm_ocean"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    }
+}

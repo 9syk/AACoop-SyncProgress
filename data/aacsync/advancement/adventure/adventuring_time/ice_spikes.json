@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "aacsync:ice_spikes": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biomes": "minecraft:ice_spikes"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    }
+}

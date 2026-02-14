@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "aacsync:deep_lukewarm_ocean": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biomes": "minecraft:deep_lukewarm_ocean"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    }
+}

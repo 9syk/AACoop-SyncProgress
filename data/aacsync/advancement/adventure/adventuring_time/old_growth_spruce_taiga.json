@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "aacsync:old_growth_spruce_taiga": {
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biomes": "minecraft:old_growth_spruce_taiga"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:location"
+        }
+    }
+}

@@ -1,0 +1,888 @@
+{
+  "parent": "minecraft:adventure/sleep_in_bed",
+  "criteria": {
+    "minecraft:badlands": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/badlands": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:bamboo_jungle": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/bamboo_jungle": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:beach": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/beach": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:birch_forest": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/birch_forest": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:cherry_grove": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/cherry_grove": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:cold_ocean": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/cold_ocean": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:dark_forest": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/dark_forest": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:deep_cold_ocean": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/deep_cold_ocean": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:deep_dark": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/deep_dark": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:deep_frozen_ocean": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/deep_frozen_ocean": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:deep_lukewarm_ocean": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/deep_lukewarm_ocean": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:deep_ocean": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/deep_ocean": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:desert": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/desert": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:dripstone_caves": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/dripstone_caves": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:eroded_badlands": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/eroded_badlands": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:flower_forest": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/flower_forest": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:forest": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/forest": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:frozen_ocean": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/frozen_ocean": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:frozen_peaks": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/frozen_peaks": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:frozen_river": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/frozen_river": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:grove": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/grove": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:ice_spikes": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/ice_spikes": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:jagged_peaks": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/jagged_peaks": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:jungle": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/jungle": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:lukewarm_ocean": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/lukewarm_ocean": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:lush_caves": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/lush_caves": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:mangrove_swamp": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/mangrove_swamp": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:meadow": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/meadow": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:mushroom_fields": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/mushroom_fields": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:ocean": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/ocean": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:old_growth_birch_forest": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/old_growth_birch_forest": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:old_growth_pine_taiga": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/old_growth_pine_taiga": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:old_growth_spruce_taiga": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/old_growth_spruce_taiga": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:pale_garden": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/pale_garden": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:plains": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/plains": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:river": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/river": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:savanna": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/savanna": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:savanna_plateau": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/savanna_plateau": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:snowy_beach": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/snowy_beach": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:snowy_plains": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/snowy_plains": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:snowy_slopes": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/snowy_slopes": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:snowy_taiga": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/snowy_taiga": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:sparse_jungle": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/sparse_jungle": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:stony_peaks": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/stony_peaks": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:stony_shore": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/stony_shore": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:sunflower_plains": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/sunflower_plains": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:swamp": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/swamp": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:taiga": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/taiga": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:warm_ocean": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/warm_ocean": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:windswept_forest": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/windswept_forest": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:windswept_gravelly_hills": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/windswept_gravelly_hills": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:windswept_hills": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/windswept_hills": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:windswept_savanna": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/windswept_savanna": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:wooded_badlands": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/adventuring_time/wooded_badlands": true
+                    }
+                }
+            }
+        }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.adventuring_time.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:diamond_boots"
+    },
+    "title": {
+      "translate": "advancements.adventure.adventuring_time.title"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:mushroom_fields"
+    ],
+    [
+      "minecraft:deep_frozen_ocean"
+    ],
+    [
+      "minecraft:frozen_ocean"
+    ],
+    [
+      "minecraft:deep_cold_ocean"
+    ],
+    [
+      "minecraft:cold_ocean"
+    ],
+    [
+      "minecraft:deep_ocean"
+    ],
+    [
+      "minecraft:ocean"
+    ],
+    [
+      "minecraft:deep_lukewarm_ocean"
+    ],
+    [
+      "minecraft:lukewarm_ocean"
+    ],
+    [
+      "minecraft:warm_ocean"
+    ],
+    [
+      "minecraft:stony_shore"
+    ],
+    [
+      "minecraft:swamp"
+    ],
+    [
+      "minecraft:mangrove_swamp"
+    ],
+    [
+      "minecraft:snowy_slopes"
+    ],
+    [
+      "minecraft:snowy_plains"
+    ],
+    [
+      "minecraft:snowy_beach"
+    ],
+    [
+      "minecraft:windswept_gravelly_hills"
+    ],
+    [
+      "minecraft:grove"
+    ],
+    [
+      "minecraft:windswept_hills"
+    ],
+    [
+      "minecraft:snowy_taiga"
+    ],
+    [
+      "minecraft:windswept_forest"
+    ],
+    [
+      "minecraft:taiga"
+    ],
+    [
+      "minecraft:plains"
+    ],
+    [
+      "minecraft:meadow"
+    ],
+    [
+      "minecraft:beach"
+    ],
+    [
+      "minecraft:forest"
+    ],
+    [
+      "minecraft:old_growth_spruce_taiga"
+    ],
+    [
+      "minecraft:flower_forest"
+    ],
+    [
+      "minecraft:birch_forest"
+    ],
+    [
+      "minecraft:dark_forest"
+    ],
+    [
+      "minecraft:pale_garden"
+    ],
+    [
+      "minecraft:savanna_plateau"
+    ],
+    [
+      "minecraft:savanna"
+    ],
+    [
+      "minecraft:jungle"
+    ],
+    [
+      "minecraft:badlands"
+    ],
+    [
+      "minecraft:desert"
+    ],
+    [
+      "minecraft:wooded_badlands"
+    ],
+    [
+      "minecraft:jagged_peaks"
+    ],
+    [
+      "minecraft:stony_peaks"
+    ],
+    [
+      "minecraft:frozen_river"
+    ],
+    [
+      "minecraft:river"
+    ],
+    [
+      "minecraft:ice_spikes"
+    ],
+    [
+      "minecraft:old_growth_pine_taiga"
+    ],
+    [
+      "minecraft:sunflower_plains"
+    ],
+    [
+      "minecraft:old_growth_birch_forest"
+    ],
+    [
+      "minecraft:sparse_jungle"
+    ],
+    [
+      "minecraft:bamboo_jungle"
+    ],
+    [
+      "minecraft:eroded_badlands"
+    ],
+    [
+      "minecraft:windswept_savanna"
+    ],
+    [
+      "minecraft:cherry_grove"
+    ],
+    [
+      "minecraft:frozen_peaks"
+    ],
+    [
+      "minecraft:dripstone_caves"
+    ],
+    [
+      "minecraft:lush_caves"
+    ],
+    [
+      "minecraft:deep_dark"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": true
+}
