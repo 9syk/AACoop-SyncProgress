@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "aacsync:ward_armor_trim_smithing_template_smithing_trim": {
+            "conditions": {
+                "recipe_id": "minecraft:ward_armor_trim_smithing_template_smithing_trim"
+            },
+            "trigger": "minecraft:recipe_crafted"
+        }
+    }
+}

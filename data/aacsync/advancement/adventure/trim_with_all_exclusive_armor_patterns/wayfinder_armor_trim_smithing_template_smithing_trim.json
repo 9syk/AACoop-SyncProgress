@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "aacsync:wayfinder_armor_trim_smithing_template_smithing_trim": {
+            "conditions": {
+                "recipe_id": "minecraft:wayfinder_armor_trim_smithing_template_smithing_trim"
+            },
+            "trigger": "minecraft:recipe_crafted"
+        }
+    }
+}
