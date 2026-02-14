@@ -1,0 +1,200 @@
+{
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "criteria": {
+    "minecraft:all_black": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/complete_catalogue/all_black": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:black": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/complete_catalogue/black": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:british_shorthair": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/complete_catalogue/british_shorthair": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:calico": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/complete_catalogue/calico": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:jellie": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/complete_catalogue/jellie": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:persian": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/complete_catalogue/persian": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:ragdoll": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/complete_catalogue/ragdoll": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:red": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/complete_catalogue/red": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:siamese": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/complete_catalogue/siamese": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:tabby": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/complete_catalogue/tabby": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:white": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/complete_catalogue/white": true
+                    }
+                }
+            }
+        }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.husbandry.complete_catalogue.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cod"
+    },
+    "title": {
+      "translate": "advancements.husbandry.complete_catalogue.title"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:all_black"
+    ],
+    [
+      "minecraft:black"
+    ],
+    [
+      "minecraft:british_shorthair"
+    ],
+    [
+      "minecraft:calico"
+    ],
+    [
+      "minecraft:jellie"
+    ],
+    [
+      "minecraft:persian"
+    ],
+    [
+      "minecraft:ragdoll"
+    ],
+    [
+      "minecraft:red"
+    ],
+    [
+      "minecraft:siamese"
+    ],
+    [
+      "minecraft:tabby"
+    ],
+    [
+      "minecraft:white"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}

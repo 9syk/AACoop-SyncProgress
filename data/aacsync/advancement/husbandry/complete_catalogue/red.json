@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "red": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "components": {
+                                "minecraft:cat/variant": "minecraft:red"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:tame_animal"
+        }
+    }
+}

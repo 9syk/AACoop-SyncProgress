@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "british_shorthair": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "components": {
+                                "minecraft:cat/variant": "minecraft:british_shorthair"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:tame_animal"
+        }
+    }
+}

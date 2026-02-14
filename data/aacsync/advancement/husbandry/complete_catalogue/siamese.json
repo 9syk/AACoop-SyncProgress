@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "siamese": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "components": {
+                                "minecraft:cat/variant": "minecraft:siamese"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:tame_animal"
+        }
+    }
+}

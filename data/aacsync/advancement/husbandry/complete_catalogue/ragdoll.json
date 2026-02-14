@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "ragdoll": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "components": {
+                                "minecraft:cat/variant": "minecraft:ragdoll"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:tame_animal"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "all_black": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "components": {
+                                "minecraft:cat/variant": "minecraft:all_black"
+                            }
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:tame_animal"
+        }
+    }
+}
