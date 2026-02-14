@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "llama": {
+            "conditions": {
+                "child": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:llama"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:bred_animals"
+        }
+    }
+}

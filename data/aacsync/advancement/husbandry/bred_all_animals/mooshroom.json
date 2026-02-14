@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "mooshroom": {
+            "conditions": {
+                "child": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:mooshroom"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:bred_animals"
+        }
+    }
+}

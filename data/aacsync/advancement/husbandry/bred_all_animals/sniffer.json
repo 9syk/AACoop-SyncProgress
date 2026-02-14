@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "sniffer": {
+            "conditions": {
+                "child": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:sniffer"
+                        }
+                    }
+                ],
+                "partner": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:sniffer"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:bred_animals"
+        }
+    }
+}

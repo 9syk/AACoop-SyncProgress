@@ -1,0 +1,424 @@
+{
+  "parent": "minecraft:husbandry/breed_an_animal",
+  "criteria": {
+    "minecraft:armadillo": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/bred_all_animals/armadillo": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:axolotl": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/bred_all_animals/axolotl": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:bee": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/bred_all_animals/bee": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:camel": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/bred_all_animals/camel": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:cat": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/bred_all_animals/cat": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:chicken": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/bred_all_animals/chicken": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:cow": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/bred_all_animals/cow": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:donkey": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/bred_all_animals/donkey": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:fox": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/bred_all_animals/fox": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:frog": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/bred_all_animals/frog": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:goat": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/bred_all_animals/goat": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:hoglin": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/bred_all_animals/hoglin": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:horse": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/bred_all_animals/horse": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:llama": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/bred_all_animals/llama": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:mooshroom": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/bred_all_animals/mooshroom": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:mule": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/bred_all_animals/mule": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:ocelot": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/bred_all_animals/ocelot": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:panda": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/bred_all_animals/panda": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:pig": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/bred_all_animals/pig": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:rabbit": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/bred_all_animals/rabbit": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:sheep": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/bred_all_animals/sheep": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:sniffer": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/bred_all_animals/sniffer": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:strider": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/bred_all_animals/strider": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:turtle": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/bred_all_animals/turtle": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:wolf": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/bred_all_animals/wolf": true
+                    }
+                }
+            }
+        }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.husbandry.breed_all_animals.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:golden_carrot"
+    },
+    "title": {
+      "translate": "advancements.husbandry.breed_all_animals.title"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:horse"
+    ],
+    [
+      "minecraft:donkey"
+    ],
+    [
+      "minecraft:mule"
+    ],
+    [
+      "minecraft:sheep"
+    ],
+    [
+      "minecraft:cow"
+    ],
+    [
+      "minecraft:mooshroom"
+    ],
+    [
+      "minecraft:pig"
+    ],
+    [
+      "minecraft:chicken"
+    ],
+    [
+      "minecraft:wolf"
+    ],
+    [
+      "minecraft:ocelot"
+    ],
+    [
+      "minecraft:rabbit"
+    ],
+    [
+      "minecraft:llama"
+    ],
+    [
+      "minecraft:cat"
+    ],
+    [
+      "minecraft:panda"
+    ],
+    [
+      "minecraft:fox"
+    ],
+    [
+      "minecraft:bee"
+    ],
+    [
+      "minecraft:hoglin"
+    ],
+    [
+      "minecraft:strider"
+    ],
+    [
+      "minecraft:goat"
+    ],
+    [
+      "minecraft:axolotl"
+    ],
+    [
+      "minecraft:camel"
+    ],
+    [
+      "minecraft:armadillo"
+    ],
+    [
+      "minecraft:turtle"
+    ],
+    [
+      "minecraft:frog"
+    ],
+    [
+      "minecraft:sniffer"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

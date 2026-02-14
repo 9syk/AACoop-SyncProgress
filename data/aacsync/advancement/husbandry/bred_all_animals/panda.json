@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "panda": {
+            "conditions": {
+                "child": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:panda"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:bred_animals"
+        }
+    }
+}

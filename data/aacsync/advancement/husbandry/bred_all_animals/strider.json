@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "strider": {
+            "conditions": {
+                "child": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:strider"
+                        }
+                    }
+                ]
+            },
+            "trigger": "minecraft:bred_animals"
+        }
+    }
+}
