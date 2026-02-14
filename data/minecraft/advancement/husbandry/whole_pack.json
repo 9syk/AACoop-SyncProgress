@@ -1,0 +1,168 @@
+{
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "criteria": {
+    "minecraft:ashen": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/whole_pack/ashen": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:black": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/whole_pack/black": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:chestnut": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/whole_pack/chestnut": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:pale": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/whole_pack/pale": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:rusty": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/whole_pack/rusty": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:snowy": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/whole_pack/snowy": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:spotted": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/whole_pack/spotted": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:striped": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/whole_pack/striped": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:woods": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/whole_pack/woods": true
+                    }
+                }
+            }
+        }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.husbandry.whole_pack.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bone"
+    },
+    "title": {
+      "translate": "advancements.husbandry.whole_pack.title"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:ashen"
+    ],
+    [
+      "minecraft:black"
+    ],
+    [
+      "minecraft:chestnut"
+    ],
+    [
+      "minecraft:pale"
+    ],
+    [
+      "minecraft:rusty"
+    ],
+    [
+      "minecraft:snowy"
+    ],
+    [
+      "minecraft:spotted"
+    ],
+    [
+      "minecraft:striped"
+    ],
+    [
+      "minecraft:woods"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}

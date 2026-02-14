@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "aacsync:temperate": {
+            "conditions": {
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type":"minecraft:frog",
+                            "components": {
+                                "minecraft:frog/variant": "minecraft:temperate"
+                            }
+                        }
+                    }
+                ],
+                "item":{
+                    "items":"minecraft:lead"
+                }
+            },
+            "trigger": "minecraft:player_interacted_with_entity"
+        }
+    }
+}
