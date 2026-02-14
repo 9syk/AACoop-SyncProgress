@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:glow_berries": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:glow_berries"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

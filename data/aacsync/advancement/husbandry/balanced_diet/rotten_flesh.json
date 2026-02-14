@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:rotten_flesh": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:rotten_flesh"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

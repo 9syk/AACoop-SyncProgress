@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:chorus_fruit": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:chorus_fruit"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

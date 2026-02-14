@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:golden_apple": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:golden_apple"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

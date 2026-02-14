@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:mushroom_stew": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:mushroom_stew"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:pufferfish": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:pufferfish"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

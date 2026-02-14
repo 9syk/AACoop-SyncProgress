@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:cooked_mutton": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:cooked_mutton"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

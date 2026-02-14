@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:spider_eye": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:spider_eye"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

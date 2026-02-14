@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:tropical_fish": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:tropical_fish"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

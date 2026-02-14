@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:salmon": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:salmon"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

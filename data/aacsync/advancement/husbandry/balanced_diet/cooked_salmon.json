@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:cooked_salmon": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:cooked_salmon"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

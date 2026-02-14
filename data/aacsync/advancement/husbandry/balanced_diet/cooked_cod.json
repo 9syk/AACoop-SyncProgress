@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:cooked_cod": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:cooked_cod"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

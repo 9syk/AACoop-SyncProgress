@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:rabbit_stew": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:rabbit_stew"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

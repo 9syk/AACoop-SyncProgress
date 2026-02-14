@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:cooked_rabbit": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:cooked_rabbit"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:cooked_chicken": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:cooked_chicken"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

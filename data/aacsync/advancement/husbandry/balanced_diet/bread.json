@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:bread": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:bread"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

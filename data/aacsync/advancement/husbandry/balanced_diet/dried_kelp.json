@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:dried_kelp": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:dried_kelp"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

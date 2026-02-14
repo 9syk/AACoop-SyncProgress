@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:beetroot": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:beetroot"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:potato": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:potato"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

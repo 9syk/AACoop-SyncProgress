@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:beef": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:beef"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

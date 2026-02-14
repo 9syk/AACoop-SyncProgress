@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:porkchop": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:porkchop"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

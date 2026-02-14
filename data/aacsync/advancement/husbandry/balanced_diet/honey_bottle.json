@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:honey_bottle": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:honey_bottle"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

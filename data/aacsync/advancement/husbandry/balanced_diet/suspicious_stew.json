@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:suspicious_stew": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:suspicious_stew"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

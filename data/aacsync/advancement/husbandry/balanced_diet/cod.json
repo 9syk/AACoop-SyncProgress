@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:cod": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:cod"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

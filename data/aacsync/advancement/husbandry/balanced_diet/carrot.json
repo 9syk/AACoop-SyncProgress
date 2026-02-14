@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:carrot": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:carrot"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

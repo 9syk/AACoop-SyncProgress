@@ -1,0 +1,664 @@
+{
+  "parent": "minecraft:husbandry/plant_seed",
+  "criteria": {
+    "apple": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/apple": true
+                    }
+                }
+            }
+        }
+    },
+    "baked_potato": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/baked_potato": true
+                    }
+                }
+            }
+        }
+    },
+    "beef": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/beef": true
+                    }
+                }
+            }
+        }
+    },
+    "beetroot": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/beetroot": true
+                    }
+                }
+            }
+        }
+    },
+    "beetroot_soup": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/beetroot_soup": true
+                    }
+                }
+            }
+        }
+    },
+    "bread": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/bread": true
+                    }
+                }
+            }
+        }
+    },
+    "carrot": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/carrot": true
+                    }
+                }
+            }
+        }
+    },
+    "chicken": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/chicken": true
+                    }
+                }
+            }
+        }
+    },
+    "chorus_fruit": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/chorus_fruit": true
+                    }
+                }
+            }
+        }
+    },
+    "cod": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/cod": true
+                    }
+                }
+            }
+        }
+    },
+    "cooked_beef": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/cooked_beef": true
+                    }
+                }
+            }
+        }
+    },
+    "cooked_chicken": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/cooked_chicken": true
+                    }
+                }
+            }
+        }
+    },
+    "cooked_cod": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/cooked_cod": true
+                    }
+                }
+            }
+        }
+    },
+    "cooked_mutton": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/cooked_mutton": true
+                    }
+                }
+            }
+        }
+    },
+    "cooked_porkchop": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/cooked_porkchop": true
+                    }
+                }
+            }
+        }
+    },
+    "cooked_rabbit": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/cooked_rabbit": true
+                    }
+                }
+            }
+        }
+    },
+    "cooked_salmon": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/cooked_salmon": true
+                    }
+                }
+            }
+        }
+    },
+    "cookie": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/cookie": true
+                    }
+                }
+            }
+        }
+    },
+    "dried_kelp": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/dried_kelp": true
+                    }
+                }
+            }
+        }
+    },
+    "enchanted_golden_apple": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/enchanted_golden_apple": true
+                    }
+                }
+            }
+        }
+    },
+    "glow_berries": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/glow_berries": true
+                    }
+                }
+            }
+        }
+    },
+    "golden_apple": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/golden_apple": true
+                    }
+                }
+            }
+        }
+    },
+    "golden_carrot": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/golden_carrot": true
+                    }
+                }
+            }
+        }
+    },
+    "honey_bottle": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/honey_bottle": true
+                    }
+                }
+            }
+        }
+    },
+    "melon_slice": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/melon_slice": true
+                    }
+                }
+            }
+        }
+    },
+    "mushroom_stew": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/mushroom_stew": true
+                    }
+                }
+            }
+        }
+    },
+    "mutton": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/mutton": true
+                    }
+                }
+            }
+        }
+    },
+    "poisonous_potato": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/poisonous_potato": true
+                    }
+                }
+            }
+        }
+    },
+    "porkchop": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/porkchop": true
+                    }
+                }
+            }
+        }
+    },
+    "potato": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/potato": true
+                    }
+                }
+            }
+        }
+    },
+    "pufferfish": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/pufferfish": true
+                    }
+                }
+            }
+        }
+    },
+    "pumpkin_pie": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/pumpkin_pie": true
+                    }
+                }
+            }
+        }
+    },
+    "rabbit": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/rabbit": true
+                    }
+                }
+            }
+        }
+    },
+    "rabbit_stew": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/rabbit_stew": true
+                    }
+                }
+            }
+        }
+    },
+    "rotten_flesh": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/rotten_flesh": true
+                    }
+                }
+            }
+        }
+    },
+    "salmon": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/salmon": true
+                    }
+                }
+            }
+        }
+    },
+    "spider_eye": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/spider_eye": true
+                    }
+                }
+            }
+        }
+    },
+    "suspicious_stew": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/suspicious_stew": true
+                    }
+                }
+            }
+        }
+    },
+    "sweet_berries": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/sweet_berries": true
+                    }
+                }
+            }
+        }
+    },
+    "tropical_fish": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:husbandry/balanced_diet/tropical_fish": true
+                    }
+                }
+            }
+        }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.husbandry.balanced_diet.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:apple"
+    },
+    "title": {
+      "translate": "advancements.husbandry.balanced_diet.title"
+    }
+  },
+  "requirements": [
+    [
+      "apple"
+    ],
+    [
+      "mushroom_stew"
+    ],
+    [
+      "bread"
+    ],
+    [
+      "porkchop"
+    ],
+    [
+      "cooked_porkchop"
+    ],
+    [
+      "golden_apple"
+    ],
+    [
+      "enchanted_golden_apple"
+    ],
+    [
+      "cod"
+    ],
+    [
+      "salmon"
+    ],
+    [
+      "tropical_fish"
+    ],
+    [
+      "pufferfish"
+    ],
+    [
+      "cooked_cod"
+    ],
+    [
+      "cooked_salmon"
+    ],
+    [
+      "cookie"
+    ],
+    [
+      "melon_slice"
+    ],
+    [
+      "beef"
+    ],
+    [
+      "cooked_beef"
+    ],
+    [
+      "chicken"
+    ],
+    [
+      "cooked_chicken"
+    ],
+    [
+      "rotten_flesh"
+    ],
+    [
+      "spider_eye"
+    ],
+    [
+      "carrot"
+    ],
+    [
+      "potato"
+    ],
+    [
+      "baked_potato"
+    ],
+    [
+      "poisonous_potato"
+    ],
+    [
+      "golden_carrot"
+    ],
+    [
+      "pumpkin_pie"
+    ],
+    [
+      "rabbit"
+    ],
+    [
+      "cooked_rabbit"
+    ],
+    [
+      "rabbit_stew"
+    ],
+    [
+      "mutton"
+    ],
+    [
+      "cooked_mutton"
+    ],
+    [
+      "chorus_fruit"
+    ],
+    [
+      "beetroot"
+    ],
+    [
+      "beetroot_soup"
+    ],
+    [
+      "dried_kelp"
+    ],
+    [
+      "suspicious_stew"
+    ],
+    [
+      "sweet_berries"
+    ],
+    [
+      "honey_bottle"
+    ],
+    [
+      "glow_berries"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

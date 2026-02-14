@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:sweet_berries": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:sweet_berries"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

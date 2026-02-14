@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:poisonous_potato": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:poisonous_potato"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

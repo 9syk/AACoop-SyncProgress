@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:mutton": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:mutton"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

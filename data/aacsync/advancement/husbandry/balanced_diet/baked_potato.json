@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:baked_potato": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:baked_potato"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

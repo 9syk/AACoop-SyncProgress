@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:apple": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:apple"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

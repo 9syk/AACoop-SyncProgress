@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:melon_slice": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:melon_slice"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "aacsync:cookie": {
+            "conditions": {
+                "item": {
+                    "items": "minecraft:cookie"
+                }
+            },
+            "trigger": "minecraft:consume_item"
+        }
+    }
+}
