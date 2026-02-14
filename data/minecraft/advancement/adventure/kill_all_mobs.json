@@ -1,0 +1,616 @@
+{
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "minecraft:blaze": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/blaze": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:bogged": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/bogged": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:breeze": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/breeze": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:cave_spider": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/cave_spider": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:creaking": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/creaking": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:creeper": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/creeper": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:drowned": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/drowned": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:elder_guardian": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/elder_guardian": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:ender_dragon": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/ender_dragon": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:enderman": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/enderman": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:endermite": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/endermite": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:evoker": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/evoker": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:ghast": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/ghast": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:guardian": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/guardian": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:hoglin": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/hoglin": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:husk": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/husk": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:magma_cube": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/magma_cube": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:phantom": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/phantom": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:piglin": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/piglin": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:piglin_brute": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/piglin_brute": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:pillager": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/pillager": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:ravager": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/ravager": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:shulker": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/shulker": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:silverfish": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/silverfish": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:skeleton": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/skeleton": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:slime": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/slime": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:spider": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/spider": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:stray": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/stray": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:vex": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/vex": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:vindicator": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/vindicator": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:witch": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/witch": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:wither": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/wither": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:wither_skeleton": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/wither_skeleton": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:zoglin": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/zoglin": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:zombie": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/zombie": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:zombie_villager": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/zombie_villager": true
+                    }
+                }
+            }
+        }
+    },
+    "minecraft:zombified_piglin": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+            "player": {
+                "type_specific": {
+                    "type": "minecraft:player",
+                    "advancements": {
+                        "aacsync:adventure/kill_all_mobs/zombified_piglin": true
+                    }
+                }
+            }
+        }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.adventure.kill_all_mobs.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:diamond_sword"
+    },
+    "title": {
+      "translate": "advancements.adventure.kill_all_mobs.title"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:blaze"
+    ],
+    [
+      "minecraft:bogged"
+    ],
+    [
+      "minecraft:breeze"
+    ],
+    [
+      "minecraft:cave_spider"
+    ],
+    [
+      "minecraft:creaking"
+    ],
+    [
+      "minecraft:creeper"
+    ],
+    [
+      "minecraft:drowned"
+    ],
+    [
+      "minecraft:elder_guardian"
+    ],
+    [
+      "minecraft:ender_dragon"
+    ],
+    [
+      "minecraft:enderman"
+    ],
+    [
+      "minecraft:endermite"
+    ],
+    [
+      "minecraft:evoker"
+    ],
+    [
+      "minecraft:ghast"
+    ],
+    [
+      "minecraft:guardian"
+    ],
+    [
+      "minecraft:hoglin"
+    ],
+    [
+      "minecraft:husk"
+    ],
+    [
+      "minecraft:magma_cube"
+    ],
+    [
+      "minecraft:phantom"
+    ],
+    [
+      "minecraft:piglin"
+    ],
+    [
+      "minecraft:piglin_brute"
+    ],
+    [
+      "minecraft:pillager"
+    ],
+    [
+      "minecraft:ravager"
+    ],
+    [
+      "minecraft:shulker"
+    ],
+    [
+      "minecraft:silverfish"
+    ],
+    [
+      "minecraft:skeleton"
+    ],
+    [
+      "minecraft:slime"
+    ],
+    [
+      "minecraft:spider"
+    ],
+    [
+      "minecraft:stray"
+    ],
+    [
+      "minecraft:vex"
+    ],
+    [
+      "minecraft:vindicator"
+    ],
+    [
+      "minecraft:witch"
+    ],
+    [
+      "minecraft:wither_skeleton"
+    ],
+    [
+      "minecraft:wither"
+    ],
+    [
+      "minecraft:zoglin"
+    ],
+    [
+      "minecraft:zombie_villager"
+    ],
+    [
+      "minecraft:zombie"
+    ],
+    [
+      "minecraft:zombified_piglin"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}
